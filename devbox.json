@@ -18,8 +18,8 @@
       "export MIX_HOME=$PWD/.nix-mix",
       "export HEX_HOME=$PWD/.nix-hex",
       "export ERL_AFLAGS='-kernel shell_history enabled'",
-      "mix local.hex --force",
-      "mix local.rebar --force",
+      //"mix local.hex --force",
+      //"mix local.rebar --force",
       "echo \"finished init hook\"",
     ],
     "scripts": {
