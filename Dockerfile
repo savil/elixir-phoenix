@@ -17,4 +17,4 @@ RUN devbox run build
 
 RUN echo 'about to run devbox run start'
 
-CMD ["devbox", "run", "start"]
+CMD ["/bin/bash", "run-start.sh"]

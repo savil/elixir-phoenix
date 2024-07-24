@@ -24,6 +24,7 @@
     ],
     "scripts": {
       "build": "mix setup",
+      "say-hello": "echo \"saying hello\"",
       "start": "mix phx.server",
     },
   },
