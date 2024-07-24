@@ -12,6 +12,7 @@
   "shell": {
     "init_hook": [
       // set up mix to install dependencies
+      "echo \"start init hook\"",
       "mkdir -p .nix-mix",
       "mkdir -p .nix-hex",
       "export MIX_HOME=$PWD/.nix-mix",
@@ -19,6 +20,7 @@
       "export ERL_AFLAGS='-kernel shell_history enabled'",
       "mix local.hex --force",
       "mix local.rebar --force",
+      "echo \"finished init hook\"",
     ],
     "scripts": {
       "build": "mix setup",
